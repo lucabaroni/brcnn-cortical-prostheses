@@ -38,6 +38,9 @@ first download the data
 ```bash
 wget -O v1_data.zip "https://ndownloader.figshare.com/files/40805201"
 ```
+unzip it 
+```bash
+unzip -o v1_data.zip
 ```
 finally preprocess it for the dataloaders
 ```bash
