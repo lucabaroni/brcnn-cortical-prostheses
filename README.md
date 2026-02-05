@@ -36,11 +36,8 @@ model = get_best_brcnn_model(neurons_subset='0', return_dataloaders=False)
 ## Download and preprocess monkey data
 first download the data
 ```bash
-wget --content-disposition      --user-agent="Mozilla/5.0"      https://figshare.com/ndownloader/files/40805201
+wget -O v1_data.zip "https://ndownloader.figshare.com/files/40805201"
 ```
-then unzip it
-```bash
-unzip v1_data.zip
 ```
 finally preprocess it for the dataloaders
 ```bash
